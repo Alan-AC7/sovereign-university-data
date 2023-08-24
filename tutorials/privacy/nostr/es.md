@@ -8,21 +8,21 @@ description: Descubre y comienza a usar NOSTR
 
 Al final de esta guía, comprenderás qué es Nostr, habrás creado una cuenta y podrás utilizarla.
 
-**Esta guía te la ofrece FranklynHart en colaboración con Agora256. Gracias a él**
+**Esta guía es gracias a FranklynHart en colaboracion con Agora256. Todos los creditos a el**
 
 ![Un nuevo retador ha llegado](assets/1.jpeg)
 
 ## ¿Qué es Nostr?
 
-Nostr es un protocolo que tiene el poder de reemplazar a Twitter, Telegram y otras redes sociales. Es un protocolo abierto y simple que puede crear una red social global resistente a la censura de una vez por todas.
+Nostr es un protocolo que tiene el poder de reemplazar a Twitter, Telegram y otras redes sociales. Es un protocolo abierto y simple que puede crear de una vez por todas una red social global resistente a la censura.
 
 ## ¿Cómo funciona?
 
 Nostr se basa en tres componentes: pares de claves, clientes y relés.
 
-Cada usuario tiene una o varias identidades, cada identidad está determinada por un par de claves criptográficas.
+Cada usuario tiene una o varias identidades, y cada identidad está determinada por un par de claves criptográficas.
 
-Para acceder a la red, es necesario utilizar un software cliente y conectarse a relés para recibir y emitir contenido.
+Para acceder a la red, es necesario utilizar un software cliente y conectarse a los relés para recibir y emitir contenido.
 
 ![Sistema de claves](assets/2.jpeg)
 
@@ -36,13 +36,13 @@ La clave pública, npub, es un identificador único al que se adjunta todo el co
 
 ## 2. Los clientes
 
-Los clientes son software que permiten interactuar con Nostr. Los principales clientes son:
+Los clientes son los software que permiten interactuar con Nostr. Los principales clientes son:
 
 > iOS: damus
 > Android: amethyst
 > Web: iris.to; snort.social; astral.ninja
 
-Los clientes permiten a un usuario generar un nuevo par de claves (equivalente a crear una cuenta) o autenticarse con un par de claves existente.
+Los clientes permiten al usuario generar un nuevo par de claves (equivalente a crear una cuenta) o autenticarse con un par de claves existente.
 
 ## 3. Los relés
 
@@ -58,7 +58,7 @@ Para los fines de esta guía, utilizaremos iris.to (https://iris.to/) ya que est
 
 ## Paso 1: Generación de claves
 
-ris creará un juego de claves para ti sin que tengas que hacer nada más que ingresar un nombre (real o ficticio) para tu perfil. Luego haz clic en GO y ¡listo!
+iris creará un juego de claves para ti sin que tengas que hacer nada más que ingresar un nombre (real o ficticio) para tu perfil. Luego haz clic en GO y ¡listo!
 
 ![Menú principal](assets/3.jpeg)
 
@@ -88,7 +88,7 @@ Finalmente, asegúrate de suscribirte al feed de Agora256 para recibir una nota 
 
 ## Paso 4: Personaliza tu perfil
 
-Aún tienes un poco de trabajo por hacer para personalizar tu perfil. Para ello, haz clic en el avatar que Iris ha generado automáticamente para ti en la esquina superior derecha de la pantalla y luego haz clic en "editar perfil".
+Aún tienes trabajo por hacer personalizando tu perfil. Para ello, haz clic en el avatar que Iris ha generado automáticamente para ti en la esquina superior derecha de la pantalla y luego haz clic en "editar perfil".
 
 ![Perfil](assets/7.jpeg)
 
@@ -103,17 +103,17 @@ Como puedes ver, también puedes configurar tu cliente para poder recibir y envi
 ## Paso 5: Respaldo del par de claves
 
 Este paso es crucial si quieres mantener el acceso a tu perfil una vez que te desconectes del cliente o que tu sesión haya expirado.
-'D'abord, clique sur l'icône "settings" représentée par un engrenage
+Primero, haz click en el icono de "Configuracion" representado por un engranaje.
 ![Setting](assets/9.jpeg)
 
-Puis, copie-colle à tour de rôle tes npub, npub hex, nsec et nsec hex dans un fichier texte que tu garderas en sécurité. Je te recommande de crypter ce fichier, si tu sais comment le faire.
+Luego, copia y pega uno por uno tus npub, npub hex, nsec, y nsec hex en un archivo de texto que mantendras seguro. En caso de que sepas hacerlo, recomiendo encriptar este archivo.
 
 ![Clef](assets/10.jpeg)
 
-> ⚠️ Remarque bien l'avertissement que te donne iris. Si tu peux partager ta clé publique sans crainte, il en est tout autrement de ta clé privée. Quiconque possède cette dernière pourra accéder à ton compte.
+> ⚠️ Ten en cuenta la advertencia que Iris te da. Si bien puedes compartir tu llave publica sin miedo alguno, la historia es completamente diferente para tu llave privada. Cualquiera que tenga esta ultima sera capaz de acceder a tu contenido
 
 ## Conclusion
 
-Ça y est, petite autruche, tu as fait tes premiers pas sur Nostr. Maintenant, il te faudra apprendre à courir à la vitesse de l'éclair. Nous publierons prochainement des guides qui te montreront à gérer tes clés et comment intégrer lightning à ton expérience Nostr à l'aide de getalby.
+Ahi tienes. pequeña avestruz, haz dado los primeros pasos en Nostr. Ahora, necesitaras aprender a correr a la velocidad de la luz. Pronto publicaremos guias que te enseñaran a como administrar tus llaves y como integrar lightning dentro de tu experiencia Nostr usando getalby.
 
-**guide écrit par FranklynHart dans le cadre de Agora256**'
+**guia escrita por FranklynHart en colaboracion con Agora256**'
